@@ -15,7 +15,7 @@ export const Ul = styled.ul`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0;
+    padding: 0px 0px 50px 0px;
     margin: 0;
     
 `
@@ -49,8 +49,8 @@ export const Loader = styled.div`
     
 `
 export const TitleHome = styled.h1`
-    color: #3cff00;
-    
+    color: #ffae00;
+    font-size: 30px;
     margin: 10px 0px 0px 0px;
     text-align:center;
 `

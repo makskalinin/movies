@@ -7,7 +7,11 @@ export const Link = styled(NavLink)`
     
     
     &.active{
-        color: #3cff00;
+        color: #7127fc;
+    }
+    &:hover{
+        color: #747070;
+        transition: all 300ms;
     }
 `;
 export const Wrapper = styled.div`

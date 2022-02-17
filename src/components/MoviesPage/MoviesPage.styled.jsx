@@ -41,29 +41,33 @@ export const Li = styled.li`
 `
 export const Input = styled.input`
     width: 400px;
-    height: 24px;
+    height: 28px;
     font-size: 18px;
     padding-left: 10px;
    
 `
 export const Form = styled.form`
+display: flex;
+align-items:center;
+justify-content: center;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
  
 `
 export const Btn = styled.button`
-    width: 80px;
-    height: 32px;
-    background-color: #3cff00;
+    width: 90px;
+    height: 36px;
+    background-color: #ffae00;
     color: black;
     margin-left: 5px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
     &:hover{
-        background-color: #2a6105;
+        background-color: #7127fc;
     color: white;
+    
     transition: all 350ms;
     }
 `
